@@ -103,6 +103,14 @@
   </itemizedlist>
 
   <warning os="sles;sled">
+   <title><quote>rollback</quote> may result in duplicate system registrations</title>
+   <para>
+    It is possible that the process of system <quote>rollback</quote> may reult in the system
+    being re-regiestered with the SCC or RMT server.
+   </para>
+  </warning>
+
+  <warning os="sles;sled">
    <title>Online migration not supported for major releases</title>
    <para>
     The online migration is <emphasis>only</emphasis> supported for migrating
